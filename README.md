@@ -5,11 +5,15 @@ Templated strings for common lisp.
 ```lisp
 (let ((name "format-string")
       (use "templated strings")
-	  (how-many "as many as you want"))
+      (how-many "as many as you want"))
 
-  #`${format-string} is a package implementing ${use} as a reader macro.
+  #`${name} is a package implementing ${use} as a reader macro.
 You can insert one, two, or ${how-many} variables into a string so that it's
 arguably more readable than a format string in some circumstances.`)
+
+; => "format-string is a package implementing templated strings as a reader macro.
+You can insert one, two, or as many as you want variables into a string so that it's
+arguably more readable than a format string in some circumstances."
 ```
 
 ## Using in your project
