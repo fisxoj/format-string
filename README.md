@@ -1,5 +1,7 @@
 # format-string
 
+[![Build Status](https://travis-ci.org/fisxoj/format-string.svg?branch=master)](https://travis-ci.org/fisxoj/format-string)
+
 Templated strings for common lisp.
 
 ```lisp
@@ -12,8 +14,8 @@ You can insert one, two, or ${how-many} variables into a string so that it's
 arguably more readable than a format string in some circumstances.`)
 
 ; => "format-string is a package implementing templated strings as a reader macro.
-You can insert one, two, or as many as you want variables into a string so that it's
-arguably more readable than a format string in some circumstances."
+; You can insert one, two, or as many as you want variables into a string so that it's
+; arguably more readable than a format string in some circumstances."
 ```
 
 ## Using in your project
