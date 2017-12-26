@@ -1,6 +1,7 @@
 # format-string
 
 [![Build Status](https://travis-ci.org/fisxoj/format-string.svg?branch=master)](https://travis-ci.org/fisxoj/format-string)
+[![Coverage Status](https://coveralls.io/repos/github/fisxoj/format-string/badge.svg?branch=master)](https://coveralls.io/github/fisxoj/format-string?branch=master)
 
 Templated strings for common lisp.
 
